@@ -18,7 +18,7 @@ sub$DateTime<- paste(sub$Date, sub$Time)
 
 sub$DateTime <-  strptime(sub$DateTime, format ="%Y-%m-%d %H:%M:%S")
 
-# Create a png file and save the plot
+# open graphics device
 
 png(filename="plot3.png", width=480, height=480, bg="white")
 
